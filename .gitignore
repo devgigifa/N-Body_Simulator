@@ -1,0 +1,11 @@
+# Build artifacts
+build/
+nbody
+*.o
+
+# Simulation output
+data/output.dat
+
+# Downloaded dependencies
+src/cJSON.h
+src/cJSON.c

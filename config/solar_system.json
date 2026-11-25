@@ -1,0 +1,65 @@
+{
+  "simulation": {
+    "dt": 3600,
+    "total_time": 31536000,
+    "integrator": "verlet",
+    "plot_interval": 24,
+    "description": "1 ano de simulação com passo de 1 hora"
+  },
+  "bodies": [
+    {
+      "name": "Sun",
+      "mass": 1.989e30,
+      "x": 0.0,
+      "y": 0.0,
+      "vx": 0.0,
+      "vy": 0.0,
+      "note": "Sol fixo na origem (aproximação de massa infinita)"
+    },
+    {
+      "name": "Mercury",
+      "mass": 3.301e23,
+      "x": 5.791e10,
+      "y": 0.0,
+      "vx": 0.0,
+      "vy": 47360.0,
+      "note": "Velocidade orbital: ~47.4 km/s. Fonte: NASA JPL Horizons"
+    },
+    {
+      "name": "Venus",
+      "mass": 4.867e24,
+      "x": 1.082e11,
+      "y": 0.0,
+      "vx": 0.0,
+      "vy": 35020.0,
+      "note": "Velocidade orbital: ~35.0 km/s. Fonte: NASA JPL Horizons"
+    },
+    {
+      "name": "Earth",
+      "mass": 5.972e24,
+      "x": 1.496e11,
+      "y": 0.0,
+      "vx": 0.0,
+      "vy": 29780.0,
+      "note": "Velocidade orbital: ~29.8 km/s. Fonte: NASA JPL Horizons"
+    },
+    {
+      "name": "Mars",
+      "mass": 6.417e23,
+      "x": 2.279e11,
+      "y": 0.0,
+      "vx": 0.0,
+      "vy": 24070.0,
+      "note": "Velocidade orbital: ~24.1 km/s. Fonte: NASA JPL Horizons"
+    },
+    {
+      "name": "Jupiter",
+      "mass": 1.898e27,
+      "x": 7.783e11,
+      "y": 0.0,
+      "vx": 0.0,
+      "vy": 13070.0,
+      "note": "Velocidade orbital: ~13.1 km/s. Fonte: NASA JPL Horizons"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "simulation": {
+    "dt": 100,
+    "total_time": 1000000,
+    "integrator": "rk4",
+    "plot_interval": 10,
+    "description": "Três corpos de massas iguais em configuração caótica (figura-8 de Chenciner & Montgomery)"
+  },
+  "bodies": [
+    {
+      "name": "Alpha",
+      "mass": 1.0e30,
+      "x":  9.7000e9,
+      "y": -2.4308e9,
+      "vx":  9.3240e2,
+      "vy":  8.6473e2,
+      "note": "Solução periódica figura-8 — Chenciner & Montgomery (2000)"
+    },
+    {
+      "name": "Beta",
+      "mass": 1.0e30,
+      "x": -9.7000e9,
+      "y":  2.4308e9,
+      "vx":  9.3240e2,
+      "vy":  8.6473e2,
+      "note": "Condições simétricas ao corpo Alpha"
+    },
+    {
+      "name": "Gamma",
+      "mass": 1.0e30,
+      "x":  0.0,
+      "y":  0.0,
+      "vx": -1.8648e3,
+      "vy": -1.7295e3,
+      "note": "Terceiro corpo no centro da figura-8"
+    }
+  ]
+}
